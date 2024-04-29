@@ -1,0 +1,7 @@
+[workspace]
+members = ["crates/udf"]
+resolver = "2"
+
+[workspace.dependencies.polars]
+features = ["lazy"]
+version = "0.39.2"
